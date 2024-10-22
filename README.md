@@ -1,8 +1,11 @@
 <h1>WEB API BAR APP</h1>
 
-<h2>1. Clone this repository to your local repository.</h2>
+<h2>1. Clone this repository to your local repository</h2>
    -
+   
+   PyCharm
 
+   
    - Click on the field "Get from VCS"
 ![image](https://github.com/user-attachments/assets/2b954e0d-ccac-4572-aaeb-455170af4428)
 
