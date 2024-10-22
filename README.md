@@ -27,15 +27,63 @@ Alembic allows you to create migration files that describe changes to the databa
 
    - The URL: https://github.com/Sofia0Andrew/bar_app_strapi.git
 
+
+   <h3>Console</h3>
+
+To clone a local repository:
+
+- Open your Terminal
+- Navigate to the location where you want the local repository to be copied, using the cd command
+- Use the git clone command followed by the path to the project directory
+- You can also give it a name using git clone /path/to new_repo
+
+<h4>Move to the directory where you will run the project</h4>
+
+````
+cd path/to/local/repository
+````
+
+![image](https://github.com/user-attachments/assets/0e0e6fec-fc07-492b-9046-dfc54da298ab)
+
+
+<h4>Clone a Remote Repository on Your Local Computer</h4>
+
+````
+git clone git/repo/path.git
+````
+
+![image](https://github.com/user-attachments/assets/e6f59b0c-80a2-435d-b9f8-e5aeb7b0ecad)
+
+
+Now you can check your folder where you cloned the repository and make sure that everything was successful
+![image](https://github.com/user-attachments/assets/34d57796-2bc9-4f35-af49-0c5f31467980)
+
+
+Check in your compiler
+![image](https://github.com/user-attachments/assets/6d6d002a-8a6d-448c-b7d3-9e82d3cd50f3)
+
+
+
 <h2>2. Connect to a virtual environment (or create)</h2>
 
 
-    - python -m venv C:\path\to\new\virtual\environment
-      
-     |Linux/macOS:  source {path_to_venv}/bin/activate
-   
-     |Windows:      {path_to_venv}\Scripts\activate.bat
+<h4>Run venv</h4>
 
+````
+python -m venv C:\path\to\new\virtual\environment
+````
+
+<h4>Activate Virtual Environment</h4>
+
+Linux/macOS: 
+````    
+source {path_to_venv}/bin/activate
+````
+
+Windows:
+````
+{path_to_venv}\Scripts\activate.bat
+````
 
 <h2>3. Install the necessary libraries from the file "requirements.txt"</h2>
 
