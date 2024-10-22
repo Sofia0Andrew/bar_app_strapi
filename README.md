@@ -100,6 +100,18 @@ You can view this step in the "Documentation" -> "Virtual Environment" section
  pip install -r requirements.txt
 ````
 
+<h4>Check file "main.py"</h4>
+ 
+![image](https://github.com/user-attachments/assets/503e58ef-fb93-42f3-8f35-0b25b676c873)
+
+if you get similar errors when importing, follow these steps:
+
+![image](https://github.com/user-attachments/assets/72ba1318-b5aa-43a6-964e-86ac6082060e)
+
+
+Now everything is okay, you can run this app!
+
+
 <h2>4. Run the project in the terminal:</h2>
 
 <h4>Run this app in terminal with --reload to update </h4>
@@ -107,6 +119,9 @@ You can view this step in the "Documentation" -> "Virtual Environment" section
 ````
 uvicorn app.main:app --reload
 ````
+
+If everything  was done correctly, you will receive the following message in the Terminal
+
 ![image](https://github.com/user-attachments/assets/e50796ab-8616-4e6d-ac28-c9c33378b925)
 
 Click on http://127.0.0.1:8000 
@@ -118,10 +133,13 @@ http://127.0.0.1:8000/docs/
 ````
 
 You will see the automatic interactive API documentation
+
 ![image](https://github.com/user-attachments/assets/97768ce2-9e22-4098-ab85-93496300d5cd)
 
 You can test endpoints here. You have to register and login and get from admin or manager the role (barman/manager/admin) to test this endpoints.
 
+
+Ude
 
 <h1>Documentation</h1>
 
