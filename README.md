@@ -1,7 +1,7 @@
 <h1>WEB API BAR APP</h1>
 
-<h2>1. Clone this repository to your local repository.
-   -</h2>
+<h2>1. Clone this repository to your local repository.</h2>
+   -
 
    - Click on the field "Get from VCS"
 ![image](https://github.com/user-attachments/assets/2b954e0d-ccac-4572-aaeb-455170af4428)
@@ -13,7 +13,7 @@
 
    - The URL: https://github.com/Sofia0Andrew/bar_app_strapi.git
 
-2. Connect to a virtual environment (or create):
+<h2>2. Connect to a virtual environment (or create)</h2>
    -
 
     - python -m venv C:\path\to\new\virtual\environment
@@ -23,13 +23,13 @@
      |Windows:      {path_to_venv}\Scripts\activate.bat
 
 
-3. Install the necessary libraries from the file "requirements.txt"
+<h2>3. Install the necessary libraries from the file "requirements.txt"</h2>
    -
 
    - pip install -r requirements.txt
 
 
-4. Run the project in the terminal:
+<h2>4. Run the project in the terminal:</h2>
    -
    
    - ivucorn app.main:app --reload
