@@ -18,10 +18,12 @@ Alembic allows you to create migration files that describe changes to the databa
 
    
    - Click on the field "Get from VCS"
+     
 ![image](https://github.com/user-attachments/assets/2b954e0d-ccac-4572-aaeb-455170af4428)
 
 
    - Copy and paste the URL of the repository
+     
 ![image](https://github.com/user-attachments/assets/34a793d7-a7f3-4b88-9d01-31bc4ecf1a33)
 
 
@@ -43,7 +45,8 @@ To clone a local repository:
 cd path/to/local/repository
 ````
 
-![image](https://github.com/user-attachments/assets/0e0e6fec-fc07-492b-9046-dfc54da298ab)
+![image](https://github.com/user-attachments/assets/8f594c24-13f9-49f6-b0e4-029622ee117a)
+
 
 
 <h4>Clone a Remote Repository on Your Local Computer</h4>
