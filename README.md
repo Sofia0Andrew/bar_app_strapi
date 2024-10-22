@@ -26,3 +26,7 @@
 Click on  http://127.0.0.1:8000 
 
 To work with endpoints and make requests in the browser, write http://127.0.0.1:8000/docs/
+You will see the automatic interactive API documentation
+![image](https://github.com/user-attachments/assets/97768ce2-9e22-4098-ab85-93496300d5cd)
+
+You can test endpoints here. You have to register and login and get from admin or manager the role (barman/manager/admin) to test this endpoints.
