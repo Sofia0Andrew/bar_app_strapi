@@ -87,19 +87,29 @@ Windows:
 
 <h2>3. Install the necessary libraries from the file "requirements.txt"</h2>
 
+<h4>In Terminale install the necessary libraries from the file "requirements.txt"</h4>
 
-   - pip install -r requirements.txt
-
+````
+ pip install -r requirements.txt
+````
 
 <h2>4. Run the project in the terminal:</h2>
 
-   
-   - ivucorn app.main:app --reload
+<h4>Run this app in terminal with --reload to update </h4>
+
+````
+uvicorn app.main:app --reload
+````
 ![image](https://github.com/user-attachments/assets/e50796ab-8616-4e6d-ac28-c9c33378b925)
 
-Click on  http://127.0.0.1:8000 
+Click on http://127.0.0.1:8000 
 
-To work with endpoints and make requests in the browser, write http://127.0.0.1:8000/docs/
+To work with endpoints and make requests in the browser, write:
+
+````
+http://127.0.0.1:8000/docs/
+````
+
 You will see the automatic interactive API documentation
 ![image](https://github.com/user-attachments/assets/97768ce2-9e22-4098-ab85-93496300d5cd)
 
