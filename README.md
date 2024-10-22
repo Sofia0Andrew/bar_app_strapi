@@ -56,3 +56,19 @@ You will see the automatic interactive API documentation
 ![image](https://github.com/user-attachments/assets/97768ce2-9e22-4098-ab85-93496300d5cd)
 
 You can test endpoints here. You have to register and login and get from admin or manager the role (barman/manager/admin) to test this endpoints.
+
+
+<h1>Documentation</h1>
+
+<h4>FastAPI</h4>
+URL: https://fastapi.tiangolo.com/learn/
+
+<h4>Alembic</h4>
+URL: https://alembic.sqlalchemy.org/en/latest/tutorial.html
+
+<h4>Virtual Environment</h4>
+URL: https://timeweb.cloud/tutorials/python/kak-sozdat-virtualnoe-okruzhenie
+
+<h4>Uvicorn</h4>
+URL: https://www.uvicorn.org/
+
