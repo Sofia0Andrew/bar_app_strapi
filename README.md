@@ -85,6 +85,10 @@ Windows:
 {path_to_venv}\Scripts\activate.bat
 ````
 
+<h4>Create Virtual Environment</h4>
+
+You can view this step in the "Documentation" -> "Virtual Environment" section 
+
 <h2>3. Install the necessary libraries from the file "requirements.txt"</h2>
 
 <h4>In Terminale install the necessary libraries from the file "requirements.txt"</h4>
