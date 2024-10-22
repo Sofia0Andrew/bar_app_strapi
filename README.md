@@ -1,6 +1,16 @@
 1. Clone this repository to your local repository.
    -
-   
+
+   - Click on the field "Get from VCS"
+![image](https://github.com/user-attachments/assets/2b954e0d-ccac-4572-aaeb-455170af4428)
+
+
+   - Copy and paste the URL of the repository
+![image](https://github.com/user-attachments/assets/34a793d7-a7f3-4b88-9d01-31bc4ecf1a33)
+
+
+   - The URL: https://github.com/Sofia0Andrew/bar_app_strapi.git
+
 2. Connect to a virtual environment (or create):
    -
 
