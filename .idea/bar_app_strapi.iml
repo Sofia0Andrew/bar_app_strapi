@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/myenv/include" />
+      <excludeFolder url="file://$MODULE_DIR$/myenv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/myenv/Scripts" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (bar_app_strapi)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
