@@ -44,32 +44,3 @@ def delete_bar(bar_id: int, db: Session = Depends(database.get_db), current_user
     return db_bar
 
 
-# from fastapi import APIRouter, Depends, HTTPException
-# from sqlalchemy.orm import Session
-# from app import models, schemas
-# from app.database import get_db
-#
-# router = APIRouter()
-#
-#
-# @router.get("/bars/", response_model=list[schemas.Bar])
-# def read_bars(skip: int = 0, db: Session = Depends(get_db)):
-#     bars = db.query(models.Bar).offset(skip).all()
-#     return bars
-#
-#
-# @router.get("/bars/{bar_id}", response_model=schemas.Bar)
-# def read_bar(bar_id: int, db: Session = Depends(get_db)):
-#     db_bar = db.query(models.Bar).filter(models.Bar.id == bar_id).first()
-#     if db_bar is None:
-#         raise HTTPException(status_code=404, detail="Bar not found")
-#     return db_bar
-#
-#
-# @router.post("/bars/", response_model=schemas.Bar)
-# def create_bar(bar: schemas.BarCreate, db: Session = Depends(get_db)):
-#     db_bar = models.Bar(**bar.dict())
-#     db.add(db_bar)
-#     db.commit()
-#     db.refresh(db_bar)
-#     return db_bar

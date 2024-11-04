@@ -37,7 +37,8 @@ def read_bar_drinks(bar_id: int, db: Session = Depends(database.get_db), current
 #проверитт
 
 @router.get("/bars/{bar_id}/drinks/search", response_model=list[schemas.Drink])
-def search_bar_drinks(bar_id: int, drink_name: str, db: Session = Depends(database.get_db), current_user: schemas.User = Depends(dependencies.get_current_user)):
+def search_bar_drinks(bar_id: int, drink_name: str, db: Session = Depends(database.get_db),
+                      current_user: schemas.User = Depends(dependencies.get_current_user)):
     if current_user.roles not in ["admin", "manager", "barman"]:
         raise HTTPException(status_code=403, detail="Not enough permissions")
     db_drinks = crud.search_bar_drinks(db, bar_id, drink_name)

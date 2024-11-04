@@ -74,26 +74,3 @@ def delete_manager(manager_id: int, db: Session = Depends(database.get_db),
         raise HTTPException(status_code=404, detail="Manager not found")
     crud.delete_manager(db, manager_id)
     return db_manager
-
-
-# from fastapi import APIRouter, Depends, HTTPException
-# from sqlalchemy.orm import Session
-# from app import models, schemas
-# from app.database import get_db
-#
-# router = APIRouter()
-#
-# @router.get("/managers/{manager_id}", response_model=schemas.Manager)
-# def read_manager(manager_id: int, db: Session = Depends(get_db)):
-#     db_manager = db.query(models.Manager).filter(models.Manager.id == manager_id).first()
-#     if db_manager is None:
-#         raise HTTPException(status_code=404, detail="Manager not found")
-#     return db_manager
-#
-# @router.post("/managers/", response_model=schemas.Manager)
-# def create_manager(manager: schemas.ManagerCreate, db: Session = Depends(get_db)):
-#     db_manager = models.Manager(**manager.dict())
-#     db.add(db_manager)
-#     db.commit()
-#     db.refresh(db_manager)
-#     return db_manager

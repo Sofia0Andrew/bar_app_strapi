@@ -145,12 +145,7 @@ def delete_drink(db: Session, drink_id: int):
     return db_drink
 
 
-# def create_user(db: Session, user: schemas.UserCreate):
-#     db_user = models.User(**user.dict())
-#     db.add(db_user)
-#     db.commit()
-#     db.refresh(db_user)
-#     return db_user
+
 
 
 
