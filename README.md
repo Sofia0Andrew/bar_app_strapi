@@ -67,6 +67,7 @@ Check in your compiler
 
 
 
+
 <h2>2. Connect to a virtual environment (or create)</h2>
 
 
@@ -92,6 +93,9 @@ Windows:
 
 You can view this step in the "Documentation" -> "Virtual Environment" section 
 
+
+
+
 <h2>3. Install the necessary libraries from the file "requirements.txt"</h2>
 
 <h4>In Terminale install the necessary libraries from the file "requirements.txt"</h4>
@@ -109,10 +113,61 @@ if you get similar errors when importing, follow these steps:
 ![image](https://github.com/user-attachments/assets/72ba1318-b5aa-43a6-964e-86ac6082060e)
 
 
-Now everything is okay, you can run this app!
 
 
-<h2>4. Run the project in the terminal:</h2>
+<h2>4. Preparation for launch the application</h2>
+
+<h4>1. Create the file ".env"</h4>
+
+This file will contain environment variables that you will need to fill in with your data. Copy the environment variables from the ". env.example" file and specify your data.
+
+Example:
+
+![image](https://github.com/user-attachments/assets/fcc641f1-fd01-43ca-8380-a41a43ea0877)
+
+
+<h4>2. Create database in pgAdmin (PostgreSQL)</h4>
+
+You need to create a database in pgAdmin and call it by the same name as in the environment variable:
+
+![image](https://github.com/user-attachments/assets/16b5f7df-a4d5-48fe-a9c9-49c8e0a6dca6)
+
+
+![image](https://github.com/user-attachments/assets/68520630-f31c-440e-a3a1-01dc863cb3ff)
+
+
+<h4>3. Fill in the database tables</h4>
+
+You can see the file "populate_db.py" in the directory "db_data", which contains test data for working with api and database. To fill in our database, open the Terminal:
+
+````
+python db_data/populate_db.py
+````
+
+![image](https://github.com/user-attachments/assets/d98e6487-05a1-4e8f-9673-71e83234dfd0)
+
+After that check in pgAdmin test data:
+
+````
+SELECT * FROM public.users;
+SELECT * FROM public.barmen;
+SELECT * FROM public.bars;
+SELECT * FROM public.drinks;
+SELECT * FROM public.managers;
+````
+
+If everything is okay, you will see that all the data has been filled in successfully.
+
+![image](https://github.com/user-attachments/assets/55589a29-a8e2-4b7d-8702-cf8d0c9e5f78)
+
+
+
+Now you are ready to run this app!
+
+
+
+
+<h2>5. Run the project in the terminal:</h2>
 
 <h4>Run this app in terminal with --reload to update </h4>
 
@@ -139,7 +194,6 @@ You will see the automatic interactive API documentation
 You can test endpoints here. You have to register and login and get from admin or manager the role (barman/manager/admin) to test this endpoints.
 
 
-Ude
 
 <h1>Documentation</h1>
 
