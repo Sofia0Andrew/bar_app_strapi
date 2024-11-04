@@ -10,7 +10,6 @@ class UserBase(BaseModel):
     confirmed: bool = False
     blocked_: bool = False
     roles: str
-    access_token: Optional[str] = None  # Добавляем поле access_token
 
 class UserCreate(UserBase):
     pass

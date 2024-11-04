@@ -14,7 +14,6 @@ class User(Base):
     confirmed = Column(Boolean, default=False, nullable=False)
     blocked_ = Column(Boolean, default=False, nullable=False)
     roles = Column(String, nullable=False)
-    access_token = Column(String, nullable=True)  # Добавляем поле access_token
 
 
 class Manager(Base):
