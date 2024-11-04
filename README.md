@@ -114,7 +114,8 @@ if you get similar errors when importing, follow these steps:
 
 
 
-<h2>Preparation for launch the application</h2>
+
+<h2>4. Preparation for launch the application</h2>
 
 <h4>1. Create the file ".env"</h4>
 
@@ -166,7 +167,7 @@ Now you are ready to run this app!
 
 
 
-<h2>4. Run the project in the terminal:</h2>
+<h2>5. Run the project in the terminal:</h2>
 
 <h4>Run this app in terminal with --reload to update </h4>
 
